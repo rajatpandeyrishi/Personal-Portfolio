@@ -14,7 +14,7 @@ body {
   color: white;
 }
 
-/* Styling for the header section */
+/* Styling for the Header-Section */
 #header {
   width: 100%;
   height: 100vh;
@@ -28,7 +28,7 @@ body {
   padding: 10px 10%;
 }
 
-/* Styling for the navigation bar */
+/* Styling for the Navigation-Bar */
 nav {
   display: flex;
   align-items: center;
@@ -56,58 +56,114 @@ nav ul li a {
   text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
 }
 
-/* Styling for headline text */
+/* Styling for headline-Text */
 .header-text {
   margin-top: 15%;
   font-size: 30px;
   text-shadow: 2px 2px 3px rgb(0, 0, 0, 0.5);
 }
 
-/* Styling for tagline text */
+/* Styling for tagline-Text */
 .tag-line {
   font-size: 24px;
   margin-top: 15px;
 }
 
-/* Targeting the main container for styling */
+/* Targeting the main-Section-container for styling */
 #main {
   margin-top: -35px;
   padding: 80px 0;
   color: white;
 }
 
-/* Styling for section headings */
+/* Styling for section headings of About-Section */
 .heading {
   font-size: 24px;
   color: white;
 }
 
-/* Styling for section content-One */
+/* Styling for section content-One of About-Section */
 .content-One {
   margin: 35px 0;
   font-size: 20px;
+  color: #BBBBBB;
   line-height: 1.5;
 }
 
-/* Styling for individual content containers */
-.container {
+/* Styling for individual content containers of skills-section */
+.small-container {
   display: inline-block;
 }
 
-/* Styling for boxes within content containers */
+/* Styling for boxes within content containers of skill-section */
 .box {
   height: 35px;
-  border: 2px solid white;
+  font-size: 12px;
+  border: 1px solid #40cf8e;
   background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px; /* Add some space between boxes */
+  margin: 35px 10px; /* here i add some space between boxes */
   padding: 6px;
 }
 
 /* Styling for text within boxes */
 .box p {
-  color: white;
-  margin: 0; /* Remove default margin */
+  color:  #BBBBBB;
+  margin: 0; /* here i remove default margin */
+}
+
+/* Styling for job titles */
+.job-title{
+  margin-top: 20px;
+  margin-bottom:20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+/* Styling for job-duartion dates */
+.date{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 35px;
+  font-size: 20px;
+  /* line-height: 1.5; */
+  color: #BBBBBB;
+}
+
+/* Styling for job descriptions */
+.description{
+  font-size: 18px;
+  line-height: 1.5;
+  padding-left: 28px;
+  color: #BBBBBB;
+}
+
+/* Styling for job skills */
+.job-skills{
+  padding-left: 30px;
+}
+
+#project{
+  padding: 20px 0px;
+}
+
+
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+.work{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.work img{
+  width: 100%;
+  border-radius: 20px;
+  display: block;
 }
